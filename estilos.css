@@ -43,6 +43,10 @@ header {
 	),url(https://thumbs.dreamstime.com/z/number-breaking-computer-circuits-10688692.jpg);
 }
 
+header p {
+	margin-bottom: 0;
+}
+
 #habilidades{
 	display: flex;
 	flex-direction: column;
