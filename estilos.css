@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: x-large;
+}
+
+body {
+	background: rgb(200, 200, 200);
+}
+
+
+h1 {
+	font-size: 2rem;
+	height: 30px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(130, 170, 170);
+	border-radius: 10px;
+}
+
+
+
+a {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+
+}
+
+img {
+	border-radius: 50%;
+	box-shadow: 15px 5px 15px black;
+}
+
+header {
+	border-radius: 15px;
+	padding-left: 50px;
+	background-image: linear-gradient(
+		0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)
+	),url(https://thumbs.dreamstime.com/z/number-breaking-computer-circuits-10688692.jpg);
+}
+
+#habilidades{
+	display: flex;
+	flex-direction: column;
+}
+
+#lista-habilidades {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#fondo-oscuro {
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	background-color: skyblue;
+}
+
+#boton-tema {
+	display: flex;
+	align-items: center;
+}
+
+#info-personal {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#nombre {
+	color: rgb(255, 255, 255);
+}
+
+#redes {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.card {
+	height: 80vh;
+}
+
+
+section a {
+	display: flex;
+	justify-content: center;
+}
+
+a:hover {
+	color: white;
+	position: relative;
+	bottom: 10px;
+}
+
+#boton-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 10px;
+
+}
+
+#boton-volver {
+	border-radius: 10px;
+	background-color: rgb(150, 150, 150);
+	border: solid 1px;
+}
+
+#boton-volver:hover {
+	color: white;
+}
+
+
+#contacto {
+	background-color: rgb(130, 170, 170);
+	border-radius: 15px;
+}
+
+footer p{
+	font-size: medium;
+}
+
+@media (max-width: 576px){
+	
+	header{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-image: ;
+
+	}
+
+	h1 {
+		height: 10px;
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	#habilidades, #lista-habilidades{
+		display: block;
+	}
+
+	#redes {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+};
