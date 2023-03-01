@@ -139,6 +139,12 @@ footer p{
 	font-size: medium;
 }
 
+@media (max-width: 1410px) {
+	.card {
+		height: 500px;
+	}
+}
+
 @media (max-width: 576px){
 	header{
 		padding: 0;
