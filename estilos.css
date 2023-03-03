@@ -201,6 +201,6 @@ footer p{
 @media (max-width: 778px) {
 	#redes {
 		display: grid;
-		grid-tamplate-columns: 33% 33% 33%;
+		grid-template-columns: 33% 33% 33%;
 	}
 }
