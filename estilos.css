@@ -197,3 +197,10 @@ footer p{
 		grid-template-columns: 50%;
 	}
 }
+
+@media (max-width: 778px) {
+	#redes {
+		display: grid;
+		grid-tamplate-columns: 50% 50%;
+	}
+}
