@@ -8,7 +8,6 @@ document.getElementById('fondo-oscuro').addEventListener('click', function () {
 			document.body.style.color = 'rgb(255, 255, 255)';
 			document.getElementById('fondo-oscuro').style.background ='white';
 			estilo_claro = false;
-			console.log(estilo_claro)
 		}
 
 		
@@ -18,7 +17,6 @@ document.getElementById('fondo-oscuro').addEventListener('click', function () {
 			document.body.style.color = 'black';
 			document.getElementById('fondo-oscuro').style.background = 'skyblue';
 			estilo_claro = true;
-			console.log(estilo_claro)
 		}
 
 	}
