@@ -65,13 +65,6 @@ header p {
 	background-color: skyblue;
 }
 
-#fondo-claro {
-	display: none;
-	border-radius: 50%;
-	height: 20px;
-	width: 20px;
-	background-color: white;
-}
 
 #boton-tema {
 	display: flex;
